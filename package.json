@@ -1,0 +1,27 @@
+{
+  "name": "satellite",
+  "version": "1.0.0",
+  "description": "a lightweight web app style framework",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quadnix/satellite.git"
+  },
+  "author": "Patrick Kage <patrick@raic.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quadnix/satellite/issues"
+  },
+  "homepage": "https://github.com/quadnix/satellite#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-serve": "^1.4.0",
+    "gulp-uglifycss": "^1.0.6"
+  }
+}
