@@ -22,11 +22,14 @@
 		border-color: black;
 		color: black;
 	}
-
 	
 	&:active {
 		color: white;
 		background-color: black;
+	}
+
+	&:visited { // shim for anchor tags
+		color: white;
 	}
 }
 
@@ -39,8 +42,13 @@
 	&:hover {
 		color: white;
 	}
+
 	&:active {
 		color: black;
 		background-color: white;
+	}
+
+	&:visited { // shim for anchor tags
+		color: white;
 	}
 }
