@@ -334,7 +334,8 @@ input[type="text"] {
   background-color: white;
   transition: color 0.25s cubic-bezier(0, 0, 0.3, 1), background-color 0.25s cubic-bezier(0, 0, 0.3, 1), border 0.25s cubic-bezier(0, 0, 0.3, 1); }
   .button:hover, .button-secondary:hover, .button-primary:hover {
-    border-color: black; }
+    border-color: black;
+    color: black; }
   .button:active, .button-secondary:active, .button-primary:active {
     color: white;
     background-color: black; }
