@@ -14,6 +14,21 @@
 				margin: auto;
 				color: #ccc;
 			}
+			.github {
+				position: absolute;
+				bottom: 0.5em;
+				right: 1em;
+				margin: auto;
+				opacity: 0.7;
+				transition: opacity 0.25s cubic-bezier(0,0,0.3,1);
+			}
+			.github:hover {
+				opacity: 1;
+			}
+			.github > img {
+				height: 24px;
+				width: auto;
+			}
 			.tipcontainer {
 				position: relative;
 			}
@@ -37,6 +52,7 @@
 			<h1>satellite</h1>
 			<h4 class="center-text">minimal base styles for<br>quickly building web apps</h4>
 			<div class="tip monospace">.fullscreen</div>
+			<a class="github center-row" href="https://github.com/quadnix/satellite" target="_blank">fork on&nbsp;<img src="Github-Mark-32px.png" alt="github_logo"></a>
 		</div>
 
 		<div class="fullscreen tipcontainer grid">
