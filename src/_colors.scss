@@ -29,6 +29,10 @@
 	@extend .gray-0-text;
 }
 
+.highlight {
+	background-color: yellow;
+}
+
 // helper!
 .inverse {
 	@extend .black;
