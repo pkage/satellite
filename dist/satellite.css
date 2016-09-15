@@ -339,6 +339,8 @@ input[type="text"] {
   .button:active, .button-secondary:active, .button-primary:active {
     color: white;
     background-color: black; }
+  .button:visited, .button-secondary:visited, .button-primary:visited {
+    color: white; }
 
 .button-primary {
   color: #eee;
@@ -349,6 +351,8 @@ input[type="text"] {
   .button-primary:active {
     color: black;
     background-color: white; }
+  .button-primary:visited {
+    color: #eee; }
 
 table {
   border-collapse: collapse; }
